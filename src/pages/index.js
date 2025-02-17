@@ -75,6 +75,18 @@ const HomePage = () => {
           </li>
         ))}
       </ul>
+
+      {/* Chatbot Button */}
+      <div className="fixed bottom-4 w-1/2">
+        <a
+          href="https://hamal-chatbot.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block text-center bg-pink-600 text-white py-3 rounded-lg shadow hover:bg-pink-700 transition-all"
+        >
+          Ask AI Assistant
+        </a>
+      </div>
     </div>
   );
 };
