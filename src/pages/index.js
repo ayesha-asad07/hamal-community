@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { isAuthenticated } from '../utils/auth';
 
-const API_URL = 'http://localhost:1337/api'; // Replace with your Strapi backend URL
+const API_URL = 'https://hamal-backend-8c5a7d408193.herokuapp.com/api';
 
 const HomePage = () => {
   const [channels, setChannels] = useState([]);
@@ -67,7 +67,7 @@ const HomePage = () => {
             className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow"
           >
             <Link
-              href={`/channels/${channel.id}`}
+              href={`/channel/${channel.id}`}
               className="text-lg font-bold text-pink-700 hover:underline"
             >
               {channel.name}

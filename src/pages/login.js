@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import { saveAuthToken } from '../utils/auth';
 
-const API_URL = 'http://localhost:1337/api'; // Replace with your Strapi backend URL
+const API_URL = 'https://hamal-backend-8c5a7d408193.herokuapp.com/api'; // Replace with your Strapi backend URL
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');

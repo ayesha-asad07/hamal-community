@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:1337/api'; // Replace with your backend URL
+const API_URL = 'https://hamal-backend-8c5a7d408193.herokuapp.com/api'; 
 
 const ChannelPage = () => {
   const [channel, setChannel] = useState(null);
@@ -10,9 +10,10 @@ const ChannelPage = () => {
   const { id } = router.query;
 
   useEffect(() => {
-    if (id) {
+    
+    if(id){
       axios
-        .get(`${API_URL}/channels/${id}`)
+        .get(`https://hamal-backend-8c5a7d408193.herokuapp.com/api/channels/${id}`)
         .then((response) => setChannel(response.data))
         .catch((error) => console.error('Failed to fetch channel details', error));
     }

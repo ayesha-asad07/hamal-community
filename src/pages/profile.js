@@ -3,7 +3,7 @@ import axios from 'axios';
 import { logout } from '../utils/auth';
 import { useRouter } from 'next/router';
 
-const API_URL = 'http://localhost:1337/api'; // Replace with your backend URL
+const API_URL = 'https://hamal-backend-8c5a7d408193.herokuapp.com/api'; // Replace with your backend URL
 
 const ProfilePage = () => {
   const [profile, setProfile] = useState(null);
@@ -11,7 +11,7 @@ const ProfilePage = () => {
 
   // Fetch profile details
   useEffect(() => {
-    /** const fetchProfile = async () => {
+     const fetchProfile = async () => {
       try {
         const response = await axios.get(`${API_URL}/profile`, {
           headers: {
@@ -22,7 +22,7 @@ const ProfilePage = () => {
       } catch (error) {
         console.error('Failed to fetch profile details', error);
       }
-    };**/
+    };
 
     fetchProfile();
   }, []);

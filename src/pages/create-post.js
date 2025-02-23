@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:1337/api'; // Replace with your Strapi backend URL
+const API_URL = 'https://hamal-backend-8c5a7d408193.herokuapp.com/api'; // Replace with your Strapi backend URL
 
 const CreatePostPage = () => {
   const [title, setTitle] = useState('');
