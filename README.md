@@ -42,7 +42,7 @@ This Repository is linkedn with deployed from of other repostories.
 
 1. [`Community Backend`](https://github.com/ayesha-asad07/community-backend)
 
-2. [`AI Assistant`](https://github.com/ayesha-asad07/Live_AI)
+2. [`AI Assistant`](https://github.com/ayesha-asad07/Hamal_AI_Assistant)
 
 ## Regards
 A huge thanks to all who supported me along the way!
