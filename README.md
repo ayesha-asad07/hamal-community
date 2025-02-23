@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+
+## Hamal Community
+
+Pregnancy is a beautiful yet challenging journey, and every mom-to-be needs the right support, guidance, and a place to connect. This is a **community platform** where pregnant women can find answers, share experiences, and get expert advice.  
+
+## Vision
+
+By leveraging **technology and human connection**, we aim to:  
+- **Empower** women with accurate and helpful information.  
+- **Encourage** meaningful conversations and peer support.  
+- **Ensure** that every mother-to-be has access to a caring and knowledgeable community.  
+
+I hope to **grow this platform** into a **go-to pregnancy resource**, making a real difference in the lives of mothers worldwide.  
+
 
 ## Getting Started
 
@@ -25,16 +38,12 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
+This Repository is linkedn with deployed from of other repostories.
 
-To learn more about Next.js, take a look at the following resources:
+1. [`Community Backend`](https://github.com/ayesha-asad07/community-backend)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+2. [`AI Assistant`](https://github.com/ayesha-asad07/Live_AI)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Regards
+A huge thanks to all who supported me along the way!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
